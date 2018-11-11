@@ -33,24 +33,22 @@ def style_mpl():
     # axes
     STYLE['axes.xmargin']= 0
     STYLE['axes.ymargin']= 0.05
-    STYLE['axes.labelsize'] = 24
-    STYLE['xtick.labelsize'] =20
-    STYLE['xtick.major.size'] = 10
-    STYLE['xtick.minor.size'] = 5
-    STYLE['ytick.labelsize'] = 20
-    STYLE['ytick.major.size'] = 10
-    STYLE['ytick.minor.size'] = 5
+    STYLE['axes.labelsize'] = 22
+    STYLE['xtick.labelsize'] =12
+    STYLE['xtick.major.size'] = 7.5
+    STYLE['xtick.minor.size'] = 3.75
+    STYLE['ytick.labelsize'] = 12
+    STYLE['ytick.major.size'] = 7.5
+    STYLE['ytick.minor.size'] = 3.75
     STYLE['lines.markersize'] = 5
     STYLE['xtick.minor.bottom'] =True
     STYLE['xtick.top'] =True
     STYLE['ytick.right'] =True
-    STYLE['xtick.direction'] = 'in'
-    STYLE['ytick.direction'] = 'in'
     # STYLE['lines.markeredgewidth'] = 0. # not working, it changes other stuff
 
     # legend
     STYLE['legend.numpoints'] = 1
-    STYLE['legend.fontsize'] = 24
+    STYLE['legend.fontsize'] = 13
     STYLE['legend.labelspacing'] = 0.3
     STYLE['legend.frameon'] = False
 
